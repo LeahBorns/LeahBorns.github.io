@@ -19,6 +19,10 @@ footer {
     background-color: #aaa;
 }
 
+h3 {
+    padding-top: 5%;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -48,7 +52,6 @@ section:nth-child(even) {
 
 /*About me section*/
 
-
 div#profile-deets img {
     display: inline-block;
     border-radius: 50%;
@@ -66,3 +69,51 @@ div#skills-img img{
     display: inline-block;
     width: 20%;
 }
+
+/*Projects section*/
+
+img.project-screenshot{
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.tech-image img {
+    width: 5%;
+}
+
+button.project-links {
+    width: 10%;
+    padding: 1%;
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+button.project-links:hover {
+    background-color: lightgrey;
+    width: 9%;
+}
+
+button.project-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+/*upbeat*/
+div#upbeat-info p {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*Sustain*/
+
+div.project-info p {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
