@@ -59,3 +59,10 @@ div#profile-deets p {
     display: inline-block;
     width: 60%;
 }
+
+/*skills section*/
+
+div#skills-img img{
+    display: inline-block;
+    width: 20%;
+}
