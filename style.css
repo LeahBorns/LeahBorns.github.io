@@ -27,6 +27,11 @@ nav {
     z-index: 10;
 }
 
+ul#nav-links li{
+    display: inline-block;
+    text-decoration: none;
+}
+
 header {
     padding: 12% 0;
 }
