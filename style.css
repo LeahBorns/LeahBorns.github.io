@@ -45,3 +45,17 @@ section {
 section:nth-child(even) {
     background-color: #ddd;
 }
+
+/*About me section*/
+
+
+div#profile-deets img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20%;
+}
+
+div#profile-deets p {
+    display: inline-block;
+    width: 60%;
+}
