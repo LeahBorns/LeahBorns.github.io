@@ -9,13 +9,15 @@
 
     <body>
         <nav role="navigation">
-            <ul id="nav-links">
-               <h1>LB</h1>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+<!--           <div id="nav-info">-->
+               <div id="nav-logo">LB</div>
+                <ul id="nav-links">
+                    <li><a href="#about-me-section">About</a></li>
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#project-section">Projects</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+<!--            </div>-->
         </nav>
         <main role="main">
 
@@ -23,7 +25,7 @@
                 <h1>Borns to code</h1>
             </header>
 
-            <section>
+            <section id="about-me-section">
                 <h2>Tell me more about Leah Borns</h2>
                 <div id="profile-deets">
                     <img id="profile-pic" src="images/profile-pic" alt="profile picture">
@@ -34,7 +36,7 @@
                 </div>
             </section>
 
-            <section>
+            <section id="skills-section">
                 <h2>Skills</h2>
                 <div id="skills-img">
                     <img src="images/html-5.png" alt="html">
@@ -66,16 +68,16 @@
                 <div id="sustain-app">
                     <h3>Sustain</h3>
                     <div class="tech-image">
-                        <img src="" alt="html5">
-                        <img src="" alt="css">
-                        <img src="" alt="Javascript">
-                        <img src="" alt="jQuery">
-                        <img src="" alt="node">
+                        <img src="images/html-5.png" alt="html5">
+                        <img src="images/css-3.png" alt="css">
+                        <img src="images/javascript.png" alt="Javascript">
+                        <img src="images/jquery.png" alt="jQuery">
+                        <img src="images/nodejs.png" alt="node">
                     </div>
                     <div class="project-info">
                     <p>Sustain is the first iteration of an app that will gameify sustainability for touring musicians and their fans. The app will engage fans by having them commit to sustainable activies, document those experiences and get points for it. In the end each fan has gained points to get merchandise as a perk for participating as well as help the artist reduce their overall footprint on tour. By gameifying sustainability it can make some of these practices habitual for each 'player'.
                     </p>
-                        <img class="project-screenshot" src="images/sustain-screenshot.png" alt="sustain screenshot">
+                    <img class="project-screenshot" src="images/sustain-screenshot.png" alt="sustain screenshot">
                     </div>
 
                     <button class="project-links"><a target="_blank" href="https://sustain-node-capstone.herokuapp.com">Live app</a></button>
@@ -84,24 +86,27 @@
 
 <!--         COMMUTE CALCULATOR       -->
                 <div id="commute-calculator-app">
-                    <img src="" alt="screenshot">
                     <h3>Co<sub>2</sub>mmute Calculator</h3>
                     <div class="tech-image">
-                        <img src="" alt="html5">
-                        <img src="" alt="css">
-                        <img src="" alt="Javascript">
-                        <img src="" alt="jQuery">
-                        <img src="" alt="node">
-                        <img src="" alt="React">
+                        <img src="images/html-5.png" alt="html5">
+                        <img src="images/css-3.png" alt="css">
+                        <img src="images/javascript.png" alt="Javascript">
+                        <img src="images/jquery.png" alt="jQuery">
+                        <img src="images/nodejs.png" alt="node">
+                        <img src="images/react.png" alt="React">
                     </div>
+                    <div class="project-info">
+                    <img class="project-screenshot" src="images/commute-calc-screenshot.png" alt="commute calc screenshot">
                     <p>Co2mmute calculator is a simple way for bike commuters to keep track of their milage and the positive impact they are having each time they decide to pedal vs drive. This app will show the positive impact that bike commuting can have on our communities by comparing how much co2 they divert compared to a prius, average size car and an SUV. The ability to put a number and impact on their commute may encourage them to commute more as well as others to start.
                     </p>
+                    </div>
                     <button class="project-links"><a target="_blank" href="https://leahborns.github.io/commute-calculator-final-capstone-react/build">Live app</a></button>
                     <button class="project-links"><a target="_blank" href="https://github.com/LeahBorns/commute-calculator-final-capstone-react">Repo</a></button>
+
                 </div>
             </section>
 
-            <section>
+            <section id="contact-section">
                 <h2>Let's Connect</h2>
                 <h3>971.940.2869</h3>
                 <h3>leah.borns@gmailcom</h3>
@@ -112,7 +117,7 @@
         </main>
 
             <footer role="contentinfo">
-                <p>footer with images and links to socials</p>
+                <div id="nav-logo">LB</div>
             </footer>
 
     </body>

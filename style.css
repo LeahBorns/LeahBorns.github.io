@@ -9,7 +9,6 @@ body {
     font: "Open Sans", sans-serif;
     font-size: 20px;
     color: #444;
-    text-align: center;
     line-height: 1.5em;
 }
 
@@ -23,6 +22,7 @@ h3 {
     padding-top: 5%;
 }
 
+/*NAV*/
 nav {
     position: fixed;
     top: 0;
@@ -31,19 +31,43 @@ nav {
     z-index: 10;
 }
 
-ul#nav-links li{
+div#nav-logo {
     display: inline-block;
-    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2.5rem;
+
 }
 
+ul#nav-links {
+    float: right;
+    margin-top: 25px;
+}
+
+ul#nav-links li{
+    display: inline-block;
+    margin-left: 32px;
+}
+
+ul#nav-links li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*HEADER*/
 header {
     padding: 12% 0;
+    text-align: center
 }
 
 section {
     min-height: 200px;
     padding: 6% 0;
     background-color: #bbb;
+    margin: auto;
+    width: 90%;
+    text-align: center;
 }
 
 section:nth-child(even) {
