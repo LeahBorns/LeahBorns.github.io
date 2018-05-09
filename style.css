@@ -90,7 +90,6 @@ ul#nav-links li{
 
 ul#nav-links li a{
     text-decoration: none;
-    color: black;
     color: #F4743B;
 }
 
@@ -447,8 +446,16 @@ img.social-button {
 
 /*NAV*/
     div#nav-logo {
-        font-size: 1.8rem;
-        line-height: 1.5rem
+        font-size: 1.6rem;
+        line-height: 1.5rem;
+    }
+
+    ul#nav-links li{
+        margin-left: 20px;
+    }
+
+    ul#nav-links li a{
+        font-size: 1.2rem;
     }
 
 /*    HEADER*/
@@ -577,7 +584,7 @@ img.social-button {
 
     /*NAV*/
     div#nav-logo {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         line-height: 1.3rem
     }
 
@@ -588,8 +595,6 @@ img.social-button {
     ul#nav-links li{
         margin-left: 20px;
     }
-
-
 
     /*    HEADER*/
 
