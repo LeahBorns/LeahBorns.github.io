@@ -20,7 +20,7 @@ body {
 
 nav,
 footer {
-/*    padding: 1% 0;*/
+/*    padding: 0.5% 0;*/
     background-color: #483C46;
     font-family: 'Poppins', sans-serif;
     color: #F4743B;
@@ -96,6 +96,7 @@ header {
 
 div#header-title {
     margin: auto;
+    margin-top: 3%;
 }
 
 p.header-description {
@@ -103,7 +104,6 @@ p.header-description {
     line-height: 2rem;
     color: #483C46;
     padding-top: 2%
-
 }
 
 p#header-p {
@@ -120,7 +120,7 @@ p#header-p span {
 }
 
 section {
-    min-height: 200px;
+    min-height: 350px;
     padding: 6% 0;
     background-color: #bbb;
     margin: auto;
@@ -130,17 +130,10 @@ section {
 /*About me section*/
 
 section#about-me-section {
-/*    background-image: url(images/profile-pic);*/
-/*
-    background-size: 45%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right;
-*/
     color: #fff;
     background-color: #483C46;
     width: 90%;
-
+    min-height: 500px;
 }
 
 p#am-section-header {
@@ -169,13 +162,6 @@ div#profile-deets {
     display: inline-block;
     width: 50%;
     vertical-align: top;
-/*
-    background-color: rgba(60, 110, 113, 0.8);
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
-*/
 }
 
 p.about-me {
@@ -259,11 +245,9 @@ button.project-links a {
     color: #fff;
 }
 
-
-
-
 /*contact*/
 section#contact-section {
+    min-height: 500px;
     background-color: #fff;
 }
 
