@@ -251,7 +251,7 @@ button.project-links {
 }
 
 button.project-links:hover {
-    width: 9.5%;
+    background-color: #468286;
 }
 
 button.project-links a {
@@ -354,7 +354,7 @@ img.social-button {
     }
 
     p#am-section-header {
-        font-size: 3rem;
+        font-size: 2.8rem;
         text-align: left;
     }
 
@@ -396,9 +396,7 @@ img.social-button {
     }
 
     img.project-screenshot{
-        width: 80%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 10px;
+        width: 90%;
     }
 
     div.project-info {
@@ -413,22 +411,27 @@ img.social-button {
 
     button.project-links {
         width: 20%;
-        padding: 1.5%;
-        margin-top: 1%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 5px;
-        background-color: #3C6E71;
+        padding: 3%;
     }
 
-    button.project-links:hover {
-        width: 9.5%;
+/*    CONTACT*/
+
+    section#contact-section {
+        min-height: 400px;
     }
 
-    button.project-links a {
-        text-decoration: none;
-        color: black;
-        font-size: 1rem;
-        color: #fff;
+    div#contact-info {
+        width: 80%;
+        margin-top: 20px;
+        padding: 5%;
     }
 
+    div#contact-info p {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+    div#social-img {
+        width: 70%;
+    }
 }
