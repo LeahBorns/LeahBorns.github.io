@@ -86,7 +86,6 @@ ul#nav-links {
 ul#nav-links li{
     display: inline-block;
     margin-left: 32px;
-
 }
 
 ul#nav-links li a{
@@ -99,14 +98,6 @@ ul#nav-links li a:hover {
     color: #fbcbb7;
 }
 
-/*responsive hamburger icon*/
-.topnav .icon {
-    display: none;
-}
-
-.fa {
-    width: 40px;
-}
 
 /*HEADER*/
 header {
@@ -141,10 +132,13 @@ p#header-p span {
     position: absolute
 }
 
+span.bold {
+    font-weight: 800;
+}
+
 section {
     min-height: 350px;
     padding: 6% 0;
-    background-color: #bbb;
     margin: auto;
     text-align: center;
 }
@@ -222,7 +216,7 @@ div#upbeat-atlas-app,
 
 div.project-img {
     width: 45%;
-    display: inline-block
+    display: inline-block;
 }
 
 img.project-screenshot{
@@ -304,23 +298,137 @@ img.social-button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 
-    .top a.icon {
-        float: right;
-        display: block;
+/*    OVERALL*/
+
+    section {
+        padding: 20% 0;
+        margin-top: 10%;
     }
 
-    .topnav.responsive {
-        position: relative;
-        position: absolute;
-        right: 0;
-        top 0;
+/*NAV*/
+    div#nav-logo {
+        font-size: 1.6rem;
+        line-height: 1.3rem
     }
 
-    .topnav.responsive a {
-        float: none;
-        display: block;
+    ul#nav-links {
+        margin-right: 15px;
+    }
+
+    ul#nav-links li{
+        margin-left: 20px;
+    }
+
+/*    HEADER*/
+
+    header {
+        padding-top: 90px;
+        width: 80%;
+    }
+
+    div#header-title {
+        margin-top: 60px;
+    }
+
+    p.header-description {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        padding-top: 20px;
+    }
+
+    p#header-p {
+        line-height: 3.2rem;
+        font-size: 4rem;
+    }
+
+    p#header-p span {
+        font-size: 8rem;
+    }
+
+/*ABOUT ME*/
+
+    section#about-me-section {
+        width: 100%;
+    }
+
+    p#am-section-header {
+        font-size: 3rem;
         text-align: left;
     }
+
+    div#about-me-group {
+        margin: auto;
+        width: 85%;
+    }
+
+    div#profile-img{
+        display: block;
+        width: 95%;
+        margin-top: -15px;
+    }
+
+    img#profile-pic {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    div#profile-deets {
+        display: block;
+        width: 100%;
+    }
+
+    p.about-me {
+        font-size: 1.2rem
+    }
+
+/*    Projects section*/
+
+    div.project-img {
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-bottom: 25px;
+        margin-top: 25px
+
+    }
+
+    img.project-screenshot{
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+    }
+
+    div.project-info {
+        width: 85%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    div.project-info p {
+        font-size: 1.2rem;
+    }
+
+    button.project-links {
+        width: 20%;
+        padding: 1.5%;
+        margin-top: 1%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        background-color: #3C6E71;
+    }
+
+    button.project-links:hover {
+        width: 9.5%;
+    }
+
+    button.project-links a {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        color: #fff;
+    }
+
 }
