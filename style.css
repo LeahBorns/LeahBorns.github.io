@@ -19,7 +19,7 @@ body {
 
 nav,
 footer {
-    padding: 1% 0;
+/*    padding: 1% 0;*/
     background-color: #483C46;
     font-family: 'Poppins', sans-serif;
     color: #F4743B;
@@ -244,30 +244,44 @@ button.project-links {
     margin-top: 1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
+    background-color: #3C6E71;
 }
 
 button.project-links:hover {
-    background-color: lightgrey;
-    width: 9%;
+    width: 9.5%;
 }
 
 button.project-links a {
     text-decoration: none;
     color: black;
     font-size: 1rem;
+    color: #fff;
 }
 
 
 
 
 /*contact*/
+section#contact-section {
+    background-color: #fff;
+}
 
-
+div#contact-info {
+    background-color: #3C6E71;
+    width: 60%;
+    margin:auto;
+    padding: 3%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 div#contact-info p {
     margin: auto;
     padding-top: 1%;
     width: 80%;
+    font-size: 1.5rem;
+    color: white;
 }
 
 div#social-img {
