@@ -95,6 +95,19 @@ ul#nav-links li a{
     color: #F4743B;
 }
 
+ul#nav-links li a:hover {
+    color: #fbcbb7;
+}
+
+/*responsive hamburger icon*/
+.topnav .icon {
+    display: none;
+}
+
+.fa {
+    width: 40px;
+}
+
 /*HEADER*/
 header {
     font-family: 'Poppins', sans-serif;
@@ -293,4 +306,21 @@ img.social-button {
 
 @media only screen and (max-width: 480px) {
 
+    .top a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+        position: absolute;
+        right: 0;
+        top 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
