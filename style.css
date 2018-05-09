@@ -298,16 +298,16 @@ img.social-button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
-/*    OVERALL*/
+    /*    OVERALL*/
 
     section {
         padding: 20% 0;
         margin-top: 10%;
     }
 
-/*NAV*/
+    /*NAV*/
     div#nav-logo {
         font-size: 1.6rem;
         line-height: 1.3rem
@@ -319,6 +319,136 @@ img.social-button {
 
     ul#nav-links li{
         margin-left: 20px;
+    }
+
+    /*    HEADER*/
+
+    header {
+        padding-top: 90px;
+        width: 80%;
+    }
+
+    div#header-title {
+        margin-top: 60px;
+    }
+
+    p.header-description {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        padding-top: 20px;
+    }
+
+    p#header-p {
+        line-height: 3.2rem;
+        font-size: 4rem;
+    }
+
+    p#header-p span {
+        font-size: 8rem;
+    }
+
+    /*ABOUT ME*/
+
+    section#about-me-section {
+        width: 100%;
+    }
+
+    p#am-section-header {
+        font-size: 2.8rem;
+        text-align: left;
+    }
+
+    div#about-me-group {
+        margin: auto;
+        width: 85%;
+    }
+
+    div#profile-img{
+        display: block;
+        width: 95%;
+        margin-top: -15px;
+    }
+
+    img#profile-pic {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    div#profile-deets {
+        display: block;
+        width: 100%;
+    }
+
+    p.about-me {
+        font-size: 1.2rem
+    }
+
+    /*    Projects section*/
+
+    div.project-img {
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-bottom: 25px;
+        margin-top: 25px
+
+    }
+
+    img.project-screenshot{
+        width: 90%;
+    }
+
+    div.project-info {
+        width: 85%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    div.project-info p {
+        font-size: 1.2rem;
+    }
+
+    button.project-links {
+        width: 20%;
+        padding: 3%;
+    }
+
+    /*    CONTACT*/
+
+    section#contact-section {
+        min-height: 400px;
+    }
+
+    div#contact-info {
+        width: 80%;
+        margin-top: 20px;
+        padding: 5%;
+    }
+
+    div#contact-info p {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+    div#social-img {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+
+/*    OVERALL*/
+
+    section {
+        padding: 15% 0;
+    }
+
+/*NAV*/
+    div#nav-logo {
+        font-size: 1.8rem;
+        line-height: 1.5rem
     }
 
 /*    HEADER*/
@@ -415,6 +545,146 @@ img.social-button {
     }
 
 /*    CONTACT*/
+
+    section#contact-section {
+        min-height: 400px;
+    }
+
+    div#contact-info {
+        width: 80%;
+        margin-top: 20px;
+        padding: 5%;
+    }
+
+    div#contact-info p {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+    div#social-img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*    OVERALL*/
+
+    section {
+        padding: 20% 0;
+        margin-top: 10%;
+    }
+
+    /*NAV*/
+    div#nav-logo {
+        font-size: 1.5rem;
+        line-height: 1.3rem
+    }
+
+    ul#nav-links {
+        margin-right: 15px;
+    }
+
+    ul#nav-links li{
+        margin-left: 20px;
+    }
+
+
+
+    /*    HEADER*/
+
+    header {
+        padding-top: 90px;
+        width: 80%;
+    }
+
+    div#header-title {
+        margin-top: 60px;
+    }
+
+    p.header-description {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        padding-top: 20px;
+    }
+
+    p#header-p {
+        line-height: 3.2rem;
+        font-size: 4rem;
+    }
+
+    p#header-p span {
+        font-size: 8rem;
+    }
+
+    /*ABOUT ME*/
+
+    section#about-me-section {
+        width: 100%;
+    }
+
+    p#am-section-header {
+        font-size: 2.8rem;
+        text-align: left;
+    }
+
+    div#about-me-group {
+        margin: auto;
+        width: 85%;
+    }
+
+    div#profile-img{
+        display: block;
+        width: 95%;
+        margin-top: -15px;
+    }
+
+    img#profile-pic {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    div#profile-deets {
+        display: block;
+        width: 100%;
+    }
+
+    p.about-me {
+        font-size: 1.2rem
+    }
+
+    /*    Projects section*/
+
+    div.project-img {
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-bottom: 25px;
+        margin-top: 25px
+
+    }
+
+    img.project-screenshot{
+        width: 90%;
+    }
+
+    div.project-info {
+        width: 85%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    div.project-info p {
+        font-size: 1.2rem;
+    }
+
+    button.project-links {
+        width: 20%;
+        padding: 3%;
+    }
+
+    /*    CONTACT*/
 
     section#contact-section {
         min-height: 400px;
