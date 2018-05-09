@@ -446,16 +446,16 @@ img.social-button {
 
 /*NAV*/
     div#nav-logo {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 1.5rem;
+    }
+
+    ul#nav-links {
+        margin-right: 15px;
     }
 
     ul#nav-links li{
         margin-left: 20px;
-    }
-
-    ul#nav-links li a{
-        font-size: 1rem;
     }
 
 /*    HEADER*/
