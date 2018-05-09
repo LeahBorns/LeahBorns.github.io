@@ -11,6 +11,12 @@ body {
     line-height: 1.5em;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 nav,
 footer {
     padding: 1% 0;
@@ -28,16 +34,17 @@ h3 {
 
 h2 {
    font-size: 2.3rem;
+ padding-bottom: 3%;
 }
 
 h3 {
     padding-bottom: 5%;
     font-size: 2rem;
+    color: #F4743B;
 }
 
 p {
     text-align: left;
-    padding: 3%;
 }
 
 
@@ -92,8 +99,10 @@ div#header-title {
 
 p.header-description {
     font-size: 1.5rem;
-    padding: 1% 3%;
+    line-height: 2rem;
     color: #483C46;
+    padding-top: 2%
+
 }
 
 p#header-p {
@@ -117,48 +126,84 @@ section {
     text-align: center;
 }
 
-section:nth-child(even) {
-    background-color: #ddd;
-}
-
 /*About me section*/
 
 section#about-me-section {
-    background-image: url(images/ContourBackground.png);
-    background-size: 100%;
+/*    background-image: url(images/profile-pic);*/
+/*
+    background-size: 45%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-blend-mode: color-burn;
-    color: #483C46;
+    background-position: right;
+*/
+    color: #fff;
+    background-color: #483C46;
+    width: 90%;
+
+}
+
+p#am-section-header {
+    font-size: 4.5rem;
+    color: #F4743B;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 60px;
+}
+
+div#about-me-group {
+    margin: auto;
+    width: 90%;
 }
 
 div#profile-img{
     display: inline-block;
-    width: 40%;
+    width: 50%;
+    float: right;
 }
 
-div#profile-img img {
-    width: 80%
+img#profile-pic {
+    width: 100%
 }
 
 div#profile-deets {
     display: inline-block;
-    width: 40%;
-    padding: 0;
+    width: 50%;
+    vertical-align: top;
+/*
+    background-color: rgba(60, 110, 113, 0.8);
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+*/
 }
 
-/*skills section*/
+p.about-me {
+   margin-top: 20px;
+    color: #fff;
+        font-size: 1.3rem
+}
 
+
+/*skills section. WILL ADD LATER*/
+
+/*
 section#skills-section {
-    background-color: #DEB841;
+    background-color: #3C6E71;
 }
 
 div#skills-img img{
     display: inline-block;
     width: 20%;
 }
+*/
 
 /*Projects section*/
+section#project-section {
+    background-image: url(images/ContourBackground.png);
+    background-attachment: fixed;
+    background-color: #fff;
+    color: #3C6E71;
+}
 
 div#upbeat-atlas-app,
 #sustain-app,
@@ -185,6 +230,8 @@ div.project-info {
 
 div.project-info p {
     vertical-align: top;
+    color: #3C6E71;
+    font-size: 1.3rem;
 }
 
 div.tech-image img {
@@ -219,9 +266,8 @@ button.project-links a {
 
 div#contact-info p {
     margin: auto;
-    padding: 1%;
-    width: 60%;
-    text-align: center;
+    padding-top: 1%;
+    width: 80%;
 }
 
 div#social-img {
