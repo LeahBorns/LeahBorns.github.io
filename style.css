@@ -578,22 +578,21 @@ img.social-button {
     /*    OVERALL*/
 
     section {
-        padding: 20% 0;
-        margin-top: 10%;
+        padding: 15% 0;
     }
 
     /*NAV*/
     div#nav-logo {
-        font-size: 1.6rem;
-        line-height: 1.3rem
-    }
-
-    ul#nav-links {
-        margin-right: 15px;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
     }
 
     ul#nav-links li{
-        margin-left: 20px;
+        margin-left: 30px;
+    }
+
+    ul#nav-links li a{
+        font-size: 0.8rem;
     }
 
     /*    HEADER*/
@@ -608,18 +607,18 @@ img.social-button {
     }
 
     p.header-description {
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 1.5rem;
         padding-top: 20px;
     }
 
     p#header-p {
         line-height: 3.2rem;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     p#header-p span {
-        font-size: 8rem;
+        font-size: 6rem;
     }
 
     /*ABOUT ME*/
