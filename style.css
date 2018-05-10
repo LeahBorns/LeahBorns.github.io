@@ -347,17 +347,17 @@ img.social-button {
     /*    OVERALL*/
 
     section {
-        padding: 16% 0;
+        padding: 100px 0;
     }
 
     h3 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     /*NAV*/
     div#nav-logo {
-        font-size: 1.6rem;
-        line-height: 1.3rem
+        font-size: 1.5rem;
+        line-height: 1.2rem
     }
 
     ul#nav-links {
@@ -369,7 +369,7 @@ img.social-button {
     }
 
     ul#nav-links li a {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     /*    HEADER*/
@@ -384,7 +384,7 @@ img.social-button {
     }
 
     p.header-description {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 1.5rem;
         padding-top: 20px;
     }
@@ -400,69 +400,38 @@ img.social-button {
 
     /*ABOUT ME*/
 
-
-    section#about-me-section {
-        width: 100%;
-        min-height: 500px;
-    }
-
     p#am-section-header {
-        font-size: 2.5rem;
-    }
-
-    div#about-me-group {
-        margin: auto;
-        width: 90%;
-    }
-
-    div#profile-img{
-        display: block;
-        width: 50%;
-        float: right;
-    }
-
-    img#profile-pic {
-        width: 100%
-    }
-
-    div#profile-deets {
-        display: inline-block;
-        width: %;
-        vertical-align: top;
+        font-size: 2.6rem;
     }
 
     p.about-me {
-        margin-top: 20px;
-        font-size: rem;
+        font-size: 0.9rem;
     }
+
     /*    Projects section*/
 
+    p.section-header {
+        font-size: 2.6rem;
+        height: 45px;
+        padding-top: 10px;
+    }
+
     div.project-img {
-        width: 90%;
-        display: block;
-        margin: auto;
-        margin-bottom: 25px;
-        margin-top: 25px
-
-    }
-
-    img.project-screenshot{
-        width: 90%;
-    }
-
-    div.project-info {
-        width: 85%;
-        display: inline-block;
-        vertical-align: top;
+        width: 50%;
     }
 
     div.project-info p {
-        font-size: 1.2rem;
+        line-height: 1.1rem;
+        font-size: 0.9rem;
     }
 
+
     button.project-links {
-        width: 20%;
-        padding: 3%;
+        width: 100px;
+    }
+
+    button.project-links a {
+        font-size: 0.9rem;
     }
 
     /*    CONTACT*/
