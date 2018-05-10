@@ -72,7 +72,7 @@ div#nav-logo {
     width: 20px;
     margin-top: 15px;
     font-size: 1.6rem;
-    line-height: 1.3rem;
+    line-height: 1.2rem;
 }
 
 div#nav-logo a {
@@ -116,21 +116,21 @@ div#header-title {
 }
 
 p.header-description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2rem;
     color: #483C46;
     padding-top: 2%
 }
 
 p#header-p {
-   line-height: 3.7rem;
+   line-height: 3.6rem;
     font-size: 5rem;
     color: #3C6E71
 }
 
 p#header-p span {
     color: #F4743B;
-    font-size: 10rem;
+    font-size: 9.5rem;
     z-index: -1;
     position: absolute
 }
@@ -141,17 +141,28 @@ span.bold {
 
 section {
     min-height: 350px;
-    padding: 10% 0;
+    padding: 110px 0;
     margin: auto;
     text-align: center;
 }
 
 p.section-header {
-    font-size: 4.0rem;
+    font-size: 2.8rem;
     color: #F4743B;
     font-family: 'Poppins', sans-serif;
-    width: 80%;
-    margin-left: 50px
+    width: 90%;
+    margin-left: 50px;
+    height: 50px;
+    padding-top: 10px;
+    background: -webkit-linear-gradient(right, rgba(217, 147, 81, 0.1), rgba(217, 147, 81, 0.5));
+    /*Safari 5.1-6*/
+    background: -o-linear-gradient(left, rgba(217, 147, 81, 0.1), rgba(217, 147, 81, 0.5));
+    /*Opera 11.1-12*/
+    background: -moz-linear-gradient(left, rgba(217, 147, 81, 0.1), rgba(217, 147, 81, 0.5));
+    /*Fx 3.6-15*/
+    background: linear-gradient(to left, rgba(217, 147, 81, 0.1), rgba(217, 147, 81, 0.5));
+    /*Standard*/
+
 }
 
 /*About me section*/
@@ -166,7 +177,7 @@ section#about-me-section {
 }
 
 p#am-section-header {
-    font-size: 3.0rem;
+    font-size: 2.8rem;
     color: #F4743B;
     font-family: 'Poppins', sans-serif;
     margin-left: 10px;
@@ -180,10 +191,11 @@ div#about-me-group {
 
 div#profile-img {
    float: right;
+    width: 50%;
 }
 
 img#profile-pic {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 p.about-me {
