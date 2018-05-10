@@ -71,7 +71,8 @@ div#nav-logo {
     display: inline-block;
     width: 20px;
     margin-top: 15px;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.3rem;
 }
 
 div#nav-logo a {
@@ -93,6 +94,7 @@ ul#nav-links li{
 ul#nav-links li a{
     text-decoration: none;
     color: #F4743B;
+    font-size: 1rem;
 }
 
 ul#nav-links li a:hover {
@@ -164,7 +166,7 @@ section#about-me-section {
 }
 
 p#am-section-header {
-    font-size: 4.0rem;
+    font-size: 3.0rem;
     color: #F4743B;
     font-family: 'Poppins', sans-serif;
     margin-left: 10px;
@@ -181,13 +183,13 @@ div#profile-img {
 }
 
 img#profile-pic {
-    max-width: 90%;
+    max-width: 80%;
 }
 
 p.about-me {
     margin-top: 20px;
     color: #fff;
-    font-size: 1.2rem
+    font-size: 1rem;
 }
 
 /*
