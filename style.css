@@ -155,7 +155,7 @@ p#am-section-header {
     font-size: 4.5rem;
     color: #F4743B;
     font-family: 'Poppins', sans-serif;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 div#about-me-group {
@@ -302,8 +302,11 @@ img.social-button {
     /*    OVERALL*/
 
     section {
-        padding: 20% 0;
-        margin-top: 10%;
+        padding: 17% 0;
+    }
+
+    h3 {
+        font-size: 1.6rem;
     }
 
     /*NAV*/
@@ -318,6 +321,10 @@ img.social-button {
 
     ul#nav-links li{
         margin-left: 20px;
+    }
+
+    ul#nav-links li a {
+        font-size: 1.1rem;
     }
 
     /*    HEADER*/
@@ -348,41 +355,47 @@ img.social-button {
 
     /*ABOUT ME*/
 
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
     section#about-me-section {
-        width: 100%;
+        width: 90%;
+        min-height: 500px;
     }
 
     p#am-section-header {
-        font-size: 2.8rem;
-        text-align: left;
+        font-size: 2.5rem;
     }
 
     div#about-me-group {
         margin: auto;
-        width: 85%;
+        width: 90%;
     }
 
     div#profile-img{
-        display: block;
-        width: 95%;
-        margin-top: -15px;
+        display: inline-block;
+        width: 50%;
+        float: right;
     }
 
     img#profile-pic {
-        width: 100%;
-        margin: auto;
-
+        width: 100%
     }
 
     div#profile-deets {
-        display: block;
-        width: 100%;
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
     }
 
     p.about-me {
-        font-size: 1.2rem
+        margin-top: 20px;
+        color: #fff;
+        font-size: 1rem
     }
-
     /*    Projects section*/
 
     div.project-img {
