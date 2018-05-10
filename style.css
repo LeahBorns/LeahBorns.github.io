@@ -583,8 +583,12 @@ img.social-button {
 
     /*NAV*/
     div#nav-logo {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 1.5rem;
+    }
+
+    ul#nav-links {
+        margin-left: 60px;
     }
 
     ul#nav-links li{
@@ -593,6 +597,7 @@ img.social-button {
 
     ul#nav-links li a{
         font-size: 0.8rem;
+        padding-right: 5px;
     }
 
     /*    HEADER*/
