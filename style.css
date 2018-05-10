@@ -139,15 +139,24 @@ span.bold {
 
 section {
     min-height: 350px;
-    padding: 6% 0;
+    padding: 10% 0;
     margin: auto;
     text-align: center;
+}
+
+p.section-header {
+    font-size: 4.0rem;
+    color: #F4743B;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin-left: 50px
 }
 
 /*About me section*/
 
 section#about-me-section {
     padding-top: 9%;
+    padding-bottom: 9%;
     color: #fff;
     background-color: #483C46;
     width: 90%;
@@ -158,7 +167,8 @@ p#am-section-header {
     font-size: 4.0rem;
     color: #F4743B;
     font-family: 'Poppins', sans-serif;
-    margin-left: 50px;
+    margin-left: 10px;
+    padding-bottom: 10px;
 }
 
 div#about-me-group {
@@ -171,13 +181,13 @@ div#profile-img {
 }
 
 img#profile-pic {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 p.about-me {
     margin-top: 20px;
     color: #fff;
-    font-size: 1.3rem
+    font-size: 1.2rem
 }
 
 /*
