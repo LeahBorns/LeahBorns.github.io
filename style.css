@@ -12,11 +12,13 @@ body {
 }
 
 
+/*
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
+*/
 
 nav,
 footer {
@@ -145,6 +147,7 @@ section {
 /*About me section*/
 
 section#about-me-section {
+    padding-top: 9%;
     color: #fff;
     background-color: #483C46;
     width: 90%;
@@ -152,10 +155,10 @@ section#about-me-section {
 }
 
 p#am-section-header {
-    font-size: 4.5rem;
+    font-size: 4.0rem;
     color: #F4743B;
     font-family: 'Poppins', sans-serif;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 div#about-me-group {
@@ -163,6 +166,21 @@ div#about-me-group {
     width: 90%;
 }
 
+div#profile-img {
+   float: right;
+}
+
+img#profile-pic {
+    max-width: 100%;
+}
+
+p.about-me {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.3rem
+}
+
+/*
 div#profile-img{
     display: inline-block;
     width: 50%;
@@ -184,6 +202,7 @@ p.about-me {
     color: #fff;
         font-size: 1.3rem
 }
+*/
 
 
 /*skills section. WILL ADD LATER*/
@@ -302,7 +321,7 @@ img.social-button {
     /*    OVERALL*/
 
     section {
-        padding: 17% 0;
+        padding: 16% 0;
     }
 
     h3 {
@@ -355,14 +374,9 @@ img.social-button {
 
     /*ABOUT ME*/
 
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
 
     section#about-me-section {
-        width: 90%;
+        width: 100%;
         min-height: 500px;
     }
 
@@ -376,7 +390,7 @@ img.social-button {
     }
 
     div#profile-img{
-        display: inline-block;
+        display: block;
         width: 50%;
         float: right;
     }
@@ -387,14 +401,13 @@ img.social-button {
 
     div#profile-deets {
         display: inline-block;
-        width: 50%;
+        width: %;
         vertical-align: top;
     }
 
     p.about-me {
         margin-top: 20px;
-        color: #fff;
-        font-size: 1rem
+        font-size: rem;
     }
     /*    Projects section*/
 
