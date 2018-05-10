@@ -421,10 +421,9 @@ img.social-button {
     }
 
     div.project-info p {
-        line-height: 1.1rem;
+        line-height: 1.2rem;
         font-size: 0.9rem;
     }
-
 
     button.project-links {
         width: 100px;
@@ -436,23 +435,29 @@ img.social-button {
 
     /*    CONTACT*/
 
-    section#contact-section {
-        min-height: 400px;
-    }
-
     div#contact-info {
-        width: 80%;
-        margin-top: 20px;
-        padding: 5%;
+        width: 50%;
     }
 
     div#contact-info p {
-        width: 90%;
-        font-size: 1.3rem;
+        margin: auto;
+        padding-top: 1%;
+        width: 80%;
+        font-size: 1.2rem;
+        color: white;
     }
 
     div#social-img {
-        width: 70%;
+        width: 30%;
+        margin: auto;
+    }
+
+    img.social-button {
+        margin-top: 20px;
+        background-color: #F4743B;
+        width: 15%;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
