@@ -587,7 +587,7 @@ img.social-button {
 
     /*NAV*/
     div#nav-logo {
-        font-size: 1rem;
+        font-size: 1.1rem;
         line-height: 0.9rem
     }
 
@@ -600,7 +600,7 @@ img.social-button {
     }
 
     ul#nav-links li a {
-        font-size: 0.80rem;
+        font-size: 0.85rem;
     }
 
     /*    HEADER*/
@@ -613,11 +613,11 @@ img.social-button {
 
     p#header-p {
         line-height: 3.2rem;
-        font-size: 3.1rem;
+        font-size: 3.0rem;
     }
 
     p#header-p span {
-        font-size: 6.5rem;
+        font-size: 6.6rem;
     }
 
     /*ABOUT ME*/
