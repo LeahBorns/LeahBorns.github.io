@@ -37,7 +37,7 @@ h3 {
 
 h2 {
    font-size: 2.3rem;
- padding-bottom: 3%;
+     padding-bottom: 3%;
 }
 
 h3 {
@@ -58,7 +58,8 @@ nav {
     left: 0;
     right: 0;
     z-index: 10;
-
+    line-height: 65px;
+    height: 60px;
 }
 
 nav > .content {
@@ -81,26 +82,37 @@ div#nav-logo a {
 }
 
 ul#nav-links {
-    float: right;
-    margin-top: 25px;
-    margin-right: 40px;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0 16px;
 }
 
 ul#nav-links li{
     display: inline-block;
     margin-left: 32px;
+
 }
 
 ul#nav-links li a{
     text-decoration: none;
     color: #F4743B;
     font-size: 1rem;
+    padding: 0 14px;
 }
 
 ul#nav-links li a:hover {
     color: #fbcbb7;
 }
 
+span.mobile-btn {
+    float: right;
+    display: none;
+}
+
+ul#nav-links li.close {
+    display: none;
+}
 
 /*HEADER*/
 header {
@@ -592,16 +604,58 @@ img.social-button {
     }
 
     ul#nav-links {
-        margin-right: 10px;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #483C46;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        z-index: 3;
+        width: 175px;
+        transform: translateY(-400px);
+        transition: all 300ms ease-in-out;
     }
 
     ul#nav-links li{
-        margin-left: 15px;
+        display: block;
     }
 
     ul#nav-links li a {
         font-size: 0.85rem;
+        text-align: center;
     }
+
+    ul#nav-links li.close {
+        text-align: right;
+        display: block;
+    }
+
+    div.overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,.4);
+        opacity: 0;
+        z-index: -1;
+        transform: opacity 300ms linear;
+    }
+
+    .overlay.open {
+        z-index: 1;
+        opacity: 1;
+    }
+
+    ul#nav-links.open{
+        transform: translateX(0);
+    }
+
+    span.mobile-btn {
+        display: inline-block;
+    }
+
 
     /*    HEADER*/
 
