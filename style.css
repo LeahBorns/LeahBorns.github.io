@@ -709,7 +709,7 @@ img.social-button {
     }
 
     p#am-section-header {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         text-align: left;
         margin-left: 50px;
     }
@@ -717,9 +717,14 @@ img.social-button {
     /*    Projects section*/
 
     p.section-header {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         height: 40px;
         padding-top: 5px;
+    }
+
+    div#contact-info p {
+        width: 90%;
+        font-size: 0.9rem;
     }
 
 }
