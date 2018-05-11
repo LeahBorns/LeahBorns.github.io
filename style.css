@@ -134,12 +134,12 @@ header {
 }
 
 div#header-title {
-
-    width: 90%;
+    width: 85%;
 }
 
 div#header-title img {
     max-width: 100%;
+
 }
 
 p.header-description {
