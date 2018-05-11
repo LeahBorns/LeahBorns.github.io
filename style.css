@@ -157,7 +157,7 @@ p#header-p span {
 */
 
 span.bold {
-    font-weight: 800;
+    font-weight: bold;
 }
 
 section {
