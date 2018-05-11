@@ -659,7 +659,6 @@ img.social-button {
         display: block;
     }
 
-/*
     div.overlay {
         position: fixed;
         top: 0;
@@ -668,16 +667,14 @@ img.social-button {
         width: 100%;
         background-color: rgba(0,0,0,.4);
         opacity: 0;
-        z-index: -1000;
+        z-index: -1;
         transform: opacity 300ms linear;
     }
 
     .overlay.open {
-
-        z-index: -999;
+        z-index: 1;
         opacity: 1;
     }
-*/
 
     ul#nav-links.open{
         transform: translateX(0);
