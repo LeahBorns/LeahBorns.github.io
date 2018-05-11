@@ -149,6 +149,7 @@ p.header-description {
     padding-top: 1%
 }
 
+/*
 p#header-p {
    line-height: 3.6rem;
     font-size: 5rem;
@@ -161,6 +162,7 @@ p#header-p span {
     z-index: -1;
     position: absolute
 }
+*/
 
 span.bold {
     font-weight: 800;
@@ -416,6 +418,7 @@ img.social-button {
         padding-top: 20px;
     }
 
+/*
     p#header-p {
         line-height: 3.2rem;
         font-size: 4rem;
@@ -424,6 +427,7 @@ img.social-button {
     p#header-p span {
         font-size: 8rem;
     }
+*/
 
     /*ABOUT ME*/
 
@@ -512,6 +516,7 @@ img.social-button {
         padding-top: 20px;
     }
 
+/*
     p#header-p {
         line-height: 3.2rem;
         font-size: 3.7rem;
@@ -520,6 +525,7 @@ img.social-button {
     p#header-p span {
         font-size: 7.5rem;
     }
+*/
 
 /*ABOUT ME*/
 
@@ -690,11 +696,12 @@ img.social-button {
     /*    HEADER*/
 
     p.header-description {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         line-height: 1rem;
         padding-top: 20px;
     }
 
+/*
     p#header-p {
         line-height: 2.6rem;
         font-size: 2.4rem;
@@ -705,6 +712,7 @@ img.social-button {
         font-size: 6.6rem;
         letter-spacing: -0.3rem;
     }
+*/
 
     /*ABOUT ME*/
 
