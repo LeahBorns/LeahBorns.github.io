@@ -659,6 +659,7 @@ img.social-button {
         display: block;
     }
 
+/*
     div.overlay {
         position: fixed;
         top: 0;
@@ -672,9 +673,11 @@ img.social-button {
     }
 
     .overlay.open {
-        z-index: -1;
+
+        z-index: -999;
         opacity: 1;
     }
+*/
 
     ul#nav-links.open{
         transform: translateX(0);
