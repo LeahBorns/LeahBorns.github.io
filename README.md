@@ -1,5 +1,5 @@
 # Thinkful Portfolio
-My portfolio that holds all of my masterpieces from my time at Thinkful and soon to be more.
+This portfolio holds all of my masterpieces from my time at Thinkful to beyond.
 
 ![Header Screenshot](https://github.com/LeahBorns/leah-portfolio/blob/master/images/portfolio-header.png)
 ![About me Screenshot](https://github.com/LeahBorns/leah-portfolio/blob/master/images/portfolio-about-me.png)
@@ -7,7 +7,7 @@ My portfolio that holds all of my masterpieces from my time at Thinkful and soon
 ![Connect Screenshot](https://github.com/LeahBorns/leah-portfolio/blob/master/images/portfolio-connect.png)
 
 ## Introduction
-My portfolio that includes an about me section, links my three pieces; Upbeat Atlas, Sustain, and Commute Calculator, and a contact section.
+This is my portfolio which includes an about me section, links to my most recent pieces; Upbeat Atlas, Sustain, and Commute Calculator, and a contact section.
 
 
 ## Use Case
@@ -20,14 +20,9 @@ Initial wireframes for my portfolio can be seen below. Wireframes of all key pro
 
 ## User-stories
 
-##### Sign-in/Signup
-* As a user I should be able to sign up for Co2mmute calculator to access my own account and data
-* As a user I should be able to log in to Co2mmute calculator to access my own account and data
-* As a user I should be able to understand the purpose of the app based off the landing page to know what the app does.
-
 ##### MVP
 * As a user I should be able to learn a little about Leah and her key interests as a person and as a developer.
-* As a user I should be able to see what projects she's created and the story along with them.
+* As a user I should be able to see what projects she's created and learn the story along with them.
 * As a user I should be able to see the live site and the repo for each project
 * As a user I should be able to get contact information to explore future opportunites to work with Leah.
 
@@ -46,20 +41,20 @@ Initial wireframes for my portfolio can be seen below. Wireframes of all key pro
 
 ## Working Prototype
 
-You can access a node working prototype of the app here: https://commute-calculator-capstone.herokuapp.com/ and a react working prototype here: https://leahborns.github.io/commute-calculator-final-capstone-react/build/
+You can access a working prototype of the app here: https://leahborns.github.io/leah-portfolio/
 
 ## Functionality
 The app's functionality includes:
 
-* Buttons to see the live and repo of each project on a new page.
+* Buttons to see the live site and repo of each project on a new page.
 * Pull down menu when at a max of 480px
 * Smooth scrolling when selection menu items from the nav
 
 
 ## Technical
 
-The app is built with HTML, CSS, and JavaScript. All data is held in an mLab database during the user's session. It has been built to be fully responsive across mobile, tablet and desktop screen resolutions.
+The app is built with HTML, CSS, and JavaScript. It has been built to be fully responsive across mobile, tablet and desktop screen resolutions.
 
 ## Development Roadmap
 
-This is v1.0 of the app, additional portfolio pieces will continued to be added as they are developed.
+This is v1.0 of the app, additional portfolio pieces will continue to be added as they are developed.
