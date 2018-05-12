@@ -42,7 +42,7 @@ Initial wireframes for my portfolio can be seen below. Wireframes of all key pro
 
 * Wireframe to see the general outline
 ![Header and about section](https://github.com/LeahBorns/leah-portfolio/blob/master/images/portfolio-top.png)
-![Skills, project, and contact section](https://github.com/LeahBorns/commute-calculator-final-capstone/blob/master/wire-frame-images/sign-in-page-html-wireframe.png)
+![Skills, project, and contact section](https://github.com/LeahBorns/leah-portfolio/blob/master/images/portfolio-bottom.png)
 
 
 ## Working Prototype

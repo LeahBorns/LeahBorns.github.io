@@ -131,7 +131,6 @@ div#header-title {
 div#header-title img {
     margin-top: 0;
     max-width: 100%;
-
 }
 
 p.header-description {
@@ -157,10 +156,14 @@ p.section-header {
     font-size: 2.8rem;
     color: #F4743B;
     font-family: 'Poppins', sans-serif;
-    width: 90%;
     margin-left: 50px;
+}
+
+div.header-highlight{
+    margin-bottom: 10px;
     height: 50px;
     padding-top: 10px;
+    width: 100%;
     background: -webkit-linear-gradient(right, rgba(217, 147, 81, 0.1), rgba(217, 147, 81, 0.2));
     /*Safari 5.1-6*/
     background: -o-linear-gradient(left, rgba(217, 147, 81, 0.1), rgba(217, 147, 81, 0.2));
@@ -169,7 +172,6 @@ p.section-header {
     /*Fx 3.6-15*/
     background: linear-gradient(to left, rgba(217, 147, 81, 0.1), rgba(217, 147, 81, 0.2));
     /*Standard*/
-
 }
 
 /*About me section*/
@@ -211,30 +213,6 @@ p.about-me {
     font-size: 1rem;
 }
 
-/*
-div#profile-img{
-    display: inline-block;
-    width: 50%;
-    float: right;
-}
-
-img#profile-pic {
-    width: 100%
-}
-
-div#profile-deets {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-}
-
-p.about-me {
-   margin-top: 20px;
-    color: #fff;
-        font-size: 1.3rem
-}
-*/
-
 
 /*skills section. WILL ADD LATER*/
 
@@ -257,7 +235,9 @@ section#project-section {
     color: #3C6E71;
 }
 
-div#upbeat-atlas-app,
+div#upbeat-atlas-app {
+    margin-top: 40px;
+}
 #sustain-app,
 #commute-calculator-app {
   margin-top: 10%;
@@ -321,7 +301,7 @@ section#contact-section {
 div#contact-info {
     background-color: #3C6E71;
     width: 60%;
-    margin:auto;
+    margin: 40px auto 0 auto;
     padding: 3%;
     text-align: center;
     border-radius: 10px;
@@ -411,6 +391,9 @@ img.social-button {
 
     p.section-header {
         font-size: 2.6rem;
+    }
+
+    div.header-highlight{
         height: 45px;
         padding-top: 10px;
     }
@@ -675,6 +658,9 @@ img.social-button {
 
     p.section-header {
         font-size: 1.7rem;
+    }
+
+    div.header-highlight{
         height: 40px;
         padding-top: 5px;
     }
