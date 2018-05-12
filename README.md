@@ -1,5 +1,5 @@
-# commute-calculator-final-capstone
-Final capstone that will allow bike commuters to calculate the lbs co2 diverted
+# Thinkful Portfolio
+My portfolio that holds all of my masterpieces from my time at Thinkful and soon to be more.
 
 ![Landing page top Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/landing-page-top.png)
 ![Landing page bottom Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/landing-page-bottom.png)
@@ -8,15 +8,15 @@ Final capstone that will allow bike commuters to calculate the lbs co2 diverted
 ![User page bottom Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/user-page-bottom.png)
 
 ## Introduction
-Co2mmute calculator is a simple way for bike commuters to keep track of their milage and the positive impact they are having each time they decide to pedal vs drive.
+My portfolio that includes an about me section, links my three pieces; Upbeat Atlas, Sustain, and Commute Calculator, and a contact section.
 
 
 ## Use Case
-Why is this app useful? This app will show the positive impact that bike commuting can have on our communities by comparing how much co2 they divert compared to a prius, average size car and an SUV. The ability to put a number and impact on their commute may encourage them to commute more as well as others to start.
+Why is this app useful? This app provides information about me so I can share my skills with future employers to get a rocking job as a developer.
 
 ## UX
 
-Initial wireframes for Co2mmute calculator can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
+Initial wireframes for my portfolio can be seen below. Wireframes of all key processes were designed along with data flow and user questions for key tasks.
 
 
 ## User-stories
@@ -27,25 +27,23 @@ Initial wireframes for Co2mmute calculator can be seen below. Wireframes of all 
 * As a user I should be able to understand the purpose of the app based off the landing page to know what the app does.
 
 ##### MVP
-* As a user I should be able to input and submit the date and daily milage to see the amount of co2 diverted to date.
-* As a user I should be able to see my total milage to date to stay updated on my progress
-* As a user I should be able to see my milage converted into lbs of co2 for a prius, average sedan and an SUV to get a better understanding of my impact on biking vs driving.
-* As a user I should be able to see the date, my milage, and lbs co2 diverted in chronological order in a table below the input area to access each submission individually.
+* As a user I should be able to learn a little about Leah and her key interests as a person and as a developer.
+* As a user I should be able to see what projects she's created and the story along with them.
+* As a user I should be able to see the live site and the repo for each project
+* As a user I should be able to get contact information to explore future opportunites to work with Leah.
 
 ##### Screen Inventory
-* Landing page/account signup page
-* login page
-* Nav bar with logo and login/out
-* User home page with milage totals, co2 diverted, input area and table of overall submissions
+* Header section
+* About me section
+* Projects section
+* Contact section
 
 ##### Wireframes
 
-* Wireframe to understand purpose and sign-up
-![Purpose and Sign-up](https://github.com/LeahBorns/commute-calculator-final-capstone/blob/master/wire-frame-images/landing-signup-html-wireframe.png)
-* Wireframe to sign-in
-![Sign-in](https://github.com/LeahBorns/commute-calculator-final-capstone/blob/master/wire-frame-images/sign-in-page-html-wireframe.png)
-* Wireframe with user profile to see co2 diverted to date and to input more milage to be converted
-![User Profile](https://github.com/LeahBorns/commute-calculator-final-capstone/blob/master/wire-frame-images/user-data-html-wireframe.png)
+* Wireframe to see the general outline
+![Header and about section](https://github.com/LeahBorns/leah-portfolio/blob/master/images/portfolio-top.png)
+![Skills, project, and contact section](https://github.com/LeahBorns/commute-calculator-final-capstone/blob/master/wire-frame-images/sign-in-page-html-wireframe.png)
+
 
 ## Working Prototype
 
@@ -54,20 +52,15 @@ You can access a node working prototype of the app here: https://commute-calcula
 ## Functionality
 The app's functionality includes:
 
-* Register as a new user with a username, email, and password.
-* Sign-in using registered username and password.
-* Review current milage and co2 diverted
-* Select date and input milage each day to add to total.
-* Review miles converted into co2 at the top of the page.
-* Review each submission in chronological table at bottom of profile page.
+* Buttons to see the live and repo of each project on a new page.
+* Pull down menu when at a max of 480px
+* Smooth scrolling when selection menu items from the nav
 
 
 ## Technical
 
-The app is built with HTML, CSS, JavaScript, jQuery, Node.js and React. All data is held in an mLab database during the user's session. It has been built to be fully responsive across mobile, tablet and desktop screen resolutions.
+The app is built with HTML, CSS, and JavaScript. All data is held in an mLab database during the user's session. It has been built to be fully responsive across mobile, tablet and desktop screen resolutions.
 
 ## Development Roadmap
 
-This is v1.0 of the app, but future enhancements are expected to include:
-
-* Enhacements to the sign-in pull down and a bike gif to make it more visually appealing.
+This is v1.0 of the app, additional portfolio pieces will continued to be added as they are developed.
