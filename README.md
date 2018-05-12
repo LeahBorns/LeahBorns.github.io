@@ -1,11 +1,10 @@
 # Thinkful Portfolio
 My portfolio that holds all of my masterpieces from my time at Thinkful and soon to be more.
 
-![Landing page top Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/landing-page-top.png)
-![Landing page bottom Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/landing-page-bottom.png)
-![Sign-in Page Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/sign-in-page.png)
-![User page top Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/user-page-top.png)
-![User page bottom Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/user-page-bottom.png)
+![Header Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/landing-page-top.png)
+![About me Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/landing-page-bottom.png)
+![Projects Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/sign-in-page.png)
+![Connect Screenshot](https://github.com/LeahBorns/commute-calculator-final-capstone-react/blob/master/wire-frame-images/user-page-top.png)
 
 ## Introduction
 My portfolio that includes an about me section, links my three pieces; Upbeat Atlas, Sustain, and Commute Calculator, and a contact section.
