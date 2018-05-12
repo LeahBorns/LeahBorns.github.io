@@ -141,20 +141,6 @@ p.header-description {
     padding-top: 1%
 }
 
-/*
-p#header-p {
-   line-height: 3.6rem;
-    font-size: 5rem;
-    color: #3C6E71
-}
-
-p#header-p span {
-    color: #F4743B;
-    font-size: 9.5rem;
-    z-index: -1;
-    position: absolute
-}
-*/
 
 span.bold {
     font-weight: bold;
@@ -410,17 +396,6 @@ img.social-button {
         padding-top: 20px;
     }
 
-/*
-    p#header-p {
-        line-height: 3.2rem;
-        font-size: 4rem;
-    }
-
-    p#header-p span {
-        font-size: 8rem;
-    }
-*/
-
     /*ABOUT ME*/
 
     p#am-section-header {
@@ -508,16 +483,6 @@ img.social-button {
         padding-top: 20px;
     }
 
-/*
-    p#header-p {
-        line-height: 3.2rem;
-        font-size: 3.7rem;
-    }
-
-    p#header-p span {
-        font-size: 7.5rem;
-    }
-*/
 
 /*ABOUT ME*/
 
@@ -610,7 +575,7 @@ img.social-button {
         font-size: 1.3rem;
     }
 
-    /*NAV*/
+    /*NAV - collapsible nav bar deets*/
     div#nav-logo {
         font-size: 1.3rem;
         line-height: 1rem
@@ -693,18 +658,6 @@ img.social-button {
         padding-top: 20px;
     }
 
-/*
-    p#header-p {
-        line-height: 2.6rem;
-        font-size: 2.4rem;
-        letter-spacing: -0.1rem;
-    }
-
-    p#header-p span {
-        font-size: 6.6rem;
-        letter-spacing: -0.3rem;
-    }
-*/
 
     /*ABOUT ME*/
 
