@@ -41,7 +41,7 @@ Initial wireframes for my portfolio can be seen below. Wireframes of all key pro
 
 ## Working Prototype
 
-You can access a working prototype of the app here: https://leahborns.github.io/leah-portfolio/
+You can access a working prototype of the app here: www.leahborns.com
 
 ## Functionality
 The app's functionality includes:
